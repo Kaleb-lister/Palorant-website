@@ -1,0 +1,58 @@
+.agents-terbaik 
+{
+    padding-inline: 2rem;
+}
+
+.agents-box{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.agents-kartu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 3px solid #000000;
+    overflow: hidden;
+}
+
+.agents-kartu:hover{
+    opacity: 100%;
+    border: 3px solid #ff4655;
+    border-radius: 5px;
+}
+
+.agents-kartu:hover .agents-gambar{
+    scale: 1.1;
+}
+
+.agents-gambar{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+}
+
+.agents-deskripsi{
+    flex: 1;
+    position: relative;
+    z-index: 10;
+    padding-block:.5rem;
+    width: 100%;
+    background-color: rgb(45, 40, 40);
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    color: white;
+}

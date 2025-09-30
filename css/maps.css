@@ -1,0 +1,39 @@
+/* maps */
+.maps-container{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.maps-box{
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.maps-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.maps-img:hover{
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.maps-deskripsi{
+    width: 90%;
+    height: 90%;
+    /* background-color: rgb(37, 37, 37); */
+    border-radius: 0 0 10px 10px;
+    color: white;
+    margin: 10px;
+}

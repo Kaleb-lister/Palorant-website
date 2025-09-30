@@ -1,0 +1,687 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+
+/* body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #111;
+} */
+
+/* Navbar*/
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+} */
+
+/* Logo */
+/* .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+} */
+
+/* .logo:hover {
+    color: #ff4655;
+} */
+
+/* Navigation Links */
+/* .nav-links {
+    list-style: none;
+    display: flex;
+} */
+
+/* .nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+} */
+
+/* .nav-links a:hover {
+    color: #ff4655;
+} */
+
+/* Download Button */
+/* .download-btn {
+    background-color: #ff4655;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.download-btn:hover {
+    background-color: #ffffff;
+    color: #ff4655;
+    transition: 0.5s;
+} */
+
+
+
+/* foto awal */
+/* .fotoAwal{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.fotoAwal video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+} */
+
+/* .opening{
+    width: 60%;
+    height: 60%;    
+    position: relative;
+    background-color: #fff;
+} */
+
+/* .play-button {
+    padding: 10px 20px;
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute; 
+    bottom: 10px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.play-button:hover {
+    background-color: #ffffff;
+    color: #ff4655;
+}
+
+.textopening{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 75px;
+    margin-left: 75px;
+    height: 60%;
+    width: 80%;
+    position: absolute;
+    align-content: flex-start;
+    align-items: center;
+} */
+
+/* deskripsi home*/
+/* .deskripsi-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.deskripsi-content{
+    width: 90%;
+    height: 75%;
+    opacity: 0.9;
+    border-radius: 10px;
+    background-color: #111111;
+}
+
+.deskripsi-gambar{
+    width: 100%;
+    height: 50%;
+    background-image: url(./assets/e-distric.jpg);
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.deskripsi-tulisan{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+} */
+
+/* agents terbaik */
+
+/* .judul{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.agents-terbaik 
+{
+    padding-inline: 2rem;
+}
+
+.news-container {
+    padding-inline: 2rem;
+}
+
+.news-box {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.agents-box{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.agents-kartu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 3px solid #000000;
+    overflow: hidden;
+}
+
+.agents-kartu:hover{
+    opacity: 100%;
+    border: 3px solid #ff4655;
+    border-radius: 5px;
+}
+
+.agents-kartu:hover .agents-gambar{
+    scale: 1.1;
+}
+
+.agents-gambar{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+}
+
+.agents-deskripsi{
+    flex: 1;
+    position: relative;
+    z-index: 10;
+    padding-block:.5rem;
+    width: 100%;
+    background-color: rgb(45, 40, 40);
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    color: white;
+} */
+
+/* news */
+
+/* .bignews-container{
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-inline: 1rem;
+}
+
+.bignews-box{
+    max-width: 700px;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 60%;
+    transition: .8s;
+}
+
+.bignews-box:hover{
+    opacity: 90%;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+
+
+.bignews-image{
+    height: 100%;
+    width: 60%;
+    border-radius: 10px 0 0 10px;
+    background-size: cover;
+}
+
+.newscard-box:hover .bignews-image{
+    scale: 1.1;
+}
+
+.bignews-deskripsi{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 10px 10px 0;
+    color: rgb(255, 255, 255);
+}
+
+.newscard-box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 3px solid #000000;
+    overflow: hidden;
+    opacity: 60%;
+    margin: auto;
+}
+
+.newscard-boxawal{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 3px solid #000000;
+    overflow: hidden;
+    opacity: 60%;
+}
+
+.newscard-boxawal:hover{
+    opacity: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+.newscard-box:hover{
+    opacity: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+.newscard-img{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+}
+
+.newscard-deskripsi{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+}
+
+.newscard-teks{
+    font-size: 12px;
+    margin: 0 5px 5px 0;
+} */
+
+/* maps */
+/* .maps-container{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.maps-box{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.maps-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.maps-img:hover{
+    border: 3px solid white;
+    border-radius: 5px;
+} */
+
+/* .maps-deskripsi{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    margin: 10px;
+} */
+
+/* Report Bugs */
+/* .bugs-container{
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bugs-box{
+    width: 90%;
+    max-width: 500px;
+    background-color: #393a3b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input, select {
+    background-color: #16213e;
+    color: white;
+}
+
+textarea {
+    background-color: #16213e;
+    color: white;
+    height: 80px;
+}
+
+button {
+    background-color: #ff4655;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+} */
+
+/* Styling untuk checkbox */
+/* .checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+} */
+
+/* Footer */
+/* footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #ff4655;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-menu a:hover {
+    color: #ff4655;
+}
+
+.footer-jarak {
+    width: 100%;
+    height: 50px;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #ff4655;
+    text-decoration: none;
+}
+
+
+.font-news-title{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.font-news-deskripsi{
+    font-size: 12px;
+} */
+
+/* Media Queries */
+/* @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; 
+        padding: 5px; 
+    }
+
+    .nav-links {
+        align-items: center; 
+    }
+
+    .nav-links li {
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .fotoAwal {
+        height: 60vh;
+    }
+
+    .textopening{
+        font-size: 20px;
+        height: 50px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .opening {
+        width: 90%; 
+    }
+    
+    .deskripsi-home {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .judul{
+        font-size: 16px;
+        height: 110px;
+    }
+
+    .deskripsi-tulisan{
+        background-color: #111111;
+    }
+
+    .bignews-deskripsi{
+        font-size: 14px;
+    }
+
+    .maps-deskripsi{
+        font-size: 14px;
+    }
+
+} */
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .download-btn {
+        font-size: 12px;
+    }
+
+    .play-button {
+        font-size: 12px;
+        bottom: 10px; 
+    }
+
+    .deskripsi-tulisan{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .judul{
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .agents-deskripsi{
+        font-size: 12px;
+    }
+   
+    .newscard-teks{
+        font-size: 10px;
+    }
+
+    .deskripsi-tulisan{
+        background-color: #111111;
+    }
+
+    .footer-jarak {
+        height: 15px;
+    }
+
+    .footer-logo h2 {
+        font-size: 18px;
+    }
+
+    .footer-menu a {
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .bignews-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .newscard-boxawal{
+        width: 100%;
+    }
+    .bignews-deskripsi{
+        font-size: 14px;
+    }
+    .maps-deskripsi{
+        font-size: 12px;
+    }
+}

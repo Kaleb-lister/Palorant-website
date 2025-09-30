@@ -1,0 +1,234 @@
+.news-container {
+    padding-inline: 2rem;
+}
+
+.news-box {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* news */
+
+.bignews-container{
+    height: 350px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-inline: 1rem;
+    position: relative;
+}
+
+.bignews-container .featured-logo {
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    opacity: .2;
+}
+
+/* .bignews-box{
+    max-width: 700px;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 60%;
+    transition: .8s;
+}
+
+.bignews-box:hover{
+    opacity: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+} */
+
+.bignews-box {
+    max-width: 700px;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 60%;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    perspective: 1200px;
+    transform-style: preserve-3d;
+}
+
+.bignews-box:hover {
+    opacity: 100%;
+    border: 2px solid white;
+    border-radius: 5px;
+    transform: rotateX(0) rotateY(0) scale(1.02);
+    box-shadow: 0 15px 30px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+.bignews-image{
+    height: 100%;
+    width: 60%;
+    border-radius: 10px 0 0 10px;
+    background-size: cover;
+}
+
+.newscard-box:hover .bignews-image{
+    scale: 1.1;
+}
+
+.bignews-deskripsi{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 10px 10px 0;
+    color: rgb(255, 255, 255);
+}
+
+.newscard-box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 3px solid #000000;
+    overflow: hidden;
+    opacity: 60%;
+    margin: auto;
+}
+
+.newscard-boxawal{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: 0.8s;
+    border: 3px solid #000000;
+    overflow: hidden;
+    opacity: 60%;
+}
+
+.newscard-boxawal:hover{
+    opacity: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+.newscard-box:hover{
+    opacity: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+.newscard-img{
+    height: 60%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+}
+
+.newscard-deskripsi{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    border-radius: 0 0 10px 10px;
+    color: white;
+    text-align: center;
+}
+
+.newscard-teks{
+    font-size: 12px;
+    margin: 0 5px 5px 0;
+}
+
+/* .newscard-box,
+.newscard-boxawal {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    background: #2E2E30;
+    border-radius: 10px;
+    transition: transform 0.6s ease, opacity 0.6s ease;
+    border: 3px solid #000000;
+    overflow: hidden;
+    opacity: 60%;
+    margin: auto;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+} */
+
+.newscard-box:hover,
+.newscard-boxawal:hover {
+    opacity: 100%;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    transform: rotateY(8deg) scale(1.05);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+}
+
+.news-category {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #555; /* default */
+    color: white;
+}
+
+/* Warna spesifik berdasarkan kategori */
+.news-category.esports {
+    background-color: #1e90ff; /* Biru */
+}
+
+.news-category.update {
+    background-color: #ff6347; /* Merah */
+}
+
+.news-category.security {
+    background-color: #32cd32; /* Hijau */
+}
+
+.news-category.character {
+    background-color: #ff69b4; /* Pink */
+}
+
+.news-category.map {
+    background-color: #8a2be2; /* Ungu */
+}
+
+.news-category.weapon {
+    background-color: #ffa500; /* Orange */
+}
+
+.news-category.ranked {
+    background-color: #20b2aa; /* Teal */
+}
+
+.news-category.event {
+    background-color: #dc143c; /* Crimson */
+}
+
+.news-category.community {
+    background-color: #7b68ee; /* Medium Slate Blue */
+}
+
+.news-category.battlepass {
+    background-color: #4682b4; /* Steel Blue */
+}

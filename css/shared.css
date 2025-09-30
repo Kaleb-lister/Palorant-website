@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+.judul{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Navbar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo:hover {
+    color: #ff4655;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff4655;
+}
+
+/* Download Button */
+.download-btn {
+    background-color: #ff4655;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.download-btn:hover {
+    background-color: #ffffff;
+    color: #ff4655;
+    transition: 0.5s;
+}
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #ff4655;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.footer-menu a:hover {
+    color: #ff4655;
+}
+
+.footer-jarak {
+    width: 100%;
+    height: 50px;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #ff4655;
+    text-decoration: none;
+}
+
+
+.font-news-title{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.font-news-deskripsi{
+    font-size: 12px;
+}
+
+.agent-abilities {
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.agent-abilities li {
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; 
+        padding: 5px; 
+    }
+
+    .nav-links {
+        align-items: center; 
+    }
+
+    .nav-links li {
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .fotoAwal {
+        height: 60vh;
+    }
+
+    .textopening{
+        font-size: 20px;
+        height: 50px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .opening {
+        width: 90%; 
+    }
+    
+    .deskripsi-home {
+        flex-direction: column; 
+        height: auto;
+    }
+
+    .judul{
+        font-size: 16px;
+        height: 110px;
+    }
+
+    .deskripsi-tulisan{
+        background-color: #111111;
+    }
+
+    .bignews-deskripsi{
+        font-size: 14px;
+    }
+
+    .maps-deskripsi{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    .download-btn {
+        font-size: 12px;
+    }
+
+    .play-button {
+        font-size: 12px;
+        bottom: 10px; 
+    }
+
+    .deskripsi-tulisan{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .judul{
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .agents-deskripsi{
+        font-size: 12px;
+    }
+   
+    .newscard-teks{
+        font-size: 10px;
+    }
+
+    .deskripsi-tulisan{
+        background-color: #111111;
+    }
+
+    .footer-jarak {
+        height: 15px;
+    }
+
+    .footer-logo h2 {
+        font-size: 18px;
+    }
+
+    .footer-menu a {
+        font-size: 12px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .bignews-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .newscard-boxawal{
+        width: 100%;
+    }
+    .bignews-deskripsi{
+        font-size: 14px;
+    }
+    .maps-deskripsi{
+        font-size: 12px;
+    }
+}
